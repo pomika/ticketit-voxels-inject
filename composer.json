@@ -1,0 +1,15 @@
+{
+    "name": "voxels/voxels-inject",
+    "description": "Package to dynamically inject css and js into blade template",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^5.1",
+        "laravelcollective/html": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Voxles\\VoxelsInject\\": "src"
+        }
+    }
+}
