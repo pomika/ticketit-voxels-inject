@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Voxles\\VoxelsInject\\": "src"
+            "Voxels\\VoxelsInject\\": "src"
         }
     }
 }
