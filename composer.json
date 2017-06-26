@@ -1,11 +1,11 @@
 {
-    "name": "voxels/voxels-inject",
+    "name": "pomika/ticketit-voxels-inject",
     "description": "Package to dynamically inject css and js into blade template",
     "type": "library",
     "license": "MIT",
     "require": {
-        "laravel/framework": "^5.1",
-        "laravelcollective/html": "^5.1"
+        "php": ">=5.6.4",
+        "laravel/framework": "^5.4.0"
     },
     "autoload": {
         "psr-4": {
