@@ -7,14 +7,6 @@
         "php": ">=5.6.4",
         "laravel/framework": "^5.4.0"
     },
-    "scripts": {
-        "post-package-install": [
-            "php -f $(pwd)/src/script.php"
-        ],
-        "post-package-update": [
-            "php -f $(pwd)/src/script.php"
-        ]
-    },
     "autoload": {
         "psr-4": {
             "Voxels\\VoxelsInject\\": "src"

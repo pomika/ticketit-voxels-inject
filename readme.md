@@ -4,17 +4,11 @@ ServiceProvider + Middleware to inject custom voxels css/js into laravel
 
 ## Install
 
-Add repo to your composer.json and register ServiceProvider
-
-## TODO
-Automatically register ServiceProvider on tickeit-install via
+  * Add repository to your composer.json
+  * Add post-autoload-dump script exeution
 
 ```
-php artisan ticketit:install
-```
-
-or use custom artisan command
-
-```
-php artisan voxelsinject:install
+"post-autoload-dump": [
+    "php -f $(pwd)/vendor/pomika/ticketit-voxels-inject/src/script.php"
+]
 ```
